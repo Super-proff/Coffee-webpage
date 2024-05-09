@@ -1,0 +1,35 @@
+/* define variable */
+:root {
+  --primary: #a27b5c;
+  --secondary: #3f4e4f;
+  --tertiary: #dcd7c9;
+  --black: #121212;
+  --white: #ffffff;
+}
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  height: max-content;
+  padding: 50px 124px;
+}
+
+.copyright-term-policy{
+    color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
