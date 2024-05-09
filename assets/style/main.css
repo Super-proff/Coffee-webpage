@@ -1,0 +1,17 @@
+header {
+    width: 100%;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 131%;
+    letter-spacing: -0.01em;
+    color: #3f4e4f;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
