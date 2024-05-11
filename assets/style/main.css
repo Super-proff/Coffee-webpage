@@ -5,6 +5,7 @@
   --tertiary: #dcd7c9;
   --black: #121212;
   --white: #ffffff;
+  --gray: #717171;
 }
 
 /* reset */
@@ -13,10 +14,55 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
+  text-decoration: none;
 }
 
 body {
   background-color: var(--white);
+}
+
+.btn-order {
+  height: 56px;
+  width: 108px;
+  padding: 14px 27px;
+  background: var(--primary);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white);
+  border: 2px solid var(--primary);
+}
+
+a.btn-order:hover {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  transition: 0.3s;
+}
+
+.btn-login {
+  height: 56px;
+  width: 108px;
+  padding: 14px 27px;
+  background: transparent;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+a.btn-login:hover {
+  background: var(--primary);
+  color: var(--white);
+  border: 2px solid var(--primary);
+  transition: 0.3s;
 }
 
 header {
@@ -66,25 +112,23 @@ header {
 }
 
 .banner {
-  padding: 80px 200px;
-  width: 100%;
-  height: 770px;
+  padding: 80px 124px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background: var(--tertiary);
 }
-
-.banner > .sec-title {
-  width: 1192px;
-  height: 200px;
-}
-
-.banner > .sec-title > h1 {
+.banner > .sec-title > .headline {
   font-weight: 500;
   font-size: 96px;
   line-height: 125%;
   letter-spacing: -0.02em;
   text-align: center;
-  height: 130px;
   color: var(--black);
+}
+
+.banner > .sec-title {
+  margin-bottom: 50px !important;
 }
 
 .banner > .sec-title > .par-1 {
@@ -96,14 +140,12 @@ header {
   color: var(--black);
 }
 
-.sec-par {
-  width: 1192px;
-  height: 512px;
-}
-
-.banner > .sec-par > img {
-  width: 1192px;
-  height: 405px;
+.img-banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 30px;
 }
 
 .banner > .sec-par > h5 {
@@ -113,6 +155,15 @@ header {
   line-height: 131%;
   letter-spacing: -0.01em;
   color: var(--black);
+}
+
+.banner > .sec-par > p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: var(--gray);
 }
 
 .footer {
