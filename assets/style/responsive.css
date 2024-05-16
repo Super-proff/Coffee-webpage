@@ -1,0 +1,117 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 16px;
+  }
+  .menu-wrapper > nav,
+  .menu-wrapper > .order-and-login {
+    display: none;
+    visibility: hidden;
+  }
+
+  .list-blog {
+    display: none;
+    visibility: hidden;
+  }
+  .sm-list-blog {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .sm-blog-title{
+    font-size: 14;font-weight: 500;margin: 16px;
+   }
+
+  .sm-list-blog > .card {
+    position: relative;
+    box-shadow: 0 4px 28px -2px rgba(0, 0, 0, 0.08);
+    max-width: 50%;
+    width: 100%;
+    height: max-content;
+    max-width: 160px;
+    min-width: 160px;
+    flex: 1 1 50%;
+  }
+
+  .sm-list-blog > .card > .image > img {
+    width: 100%;
+  }
+
+  .sm-list-blog > .card > .box {
+    position: absolute;
+    bottom: 5px;
+    z-index: 7;
+    background: white;
+    left: 0;
+    padding: 4px;
+  }
+
+  .sm-list-blog > .card > .box > p.title {
+    font-size: 12px;
+  }
+
+  .sm-list-blog > .card > .box > p.detail {
+    font-size: 9px;
+  }
+
+  .banner {
+    padding: 16px;
+  }
+
+  .banner > .sec-title > .headline {
+    font-size: 24px;
+  }
+
+  .banner > .sec-title > .par-1 {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .banner > .sec-par > h5 {
+    font-size: 18px;
+  }
+
+  .banner > .sec-par > p {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 16px !important;
+  }
+
+  footer > .copyright-term-policy p {
+    font-size: 12px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .menu-wrapper > .icon-button {
+    display: none;
+    visibility: hidden;
+  }
+
+  .sm-list-blog{
+    display: none;
+    visibility: hidden;
+  }
+  .sm-blog-title{
+   font-size: 14;font-weight: 500;margin: 16px;
+   display: none;
+   visibility: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

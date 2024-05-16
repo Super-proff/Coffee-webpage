@@ -70,6 +70,12 @@ header {
   padding: 12px 100px;
 }
 
+.icon-button{
+  outline: none;
+  background: none;
+  border: 1px solid #ccc;
+}
+
 .row {
   background-color: transparent;
   display: flex;
