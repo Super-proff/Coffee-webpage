@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Imal Coffee</title>
+    <title>IMAJI Coffee</title>
     <link rel="stylesheet" href="./assets/style/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,69 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      a {
-        text-decoration: none;
-      }
-      .btn-order {
-        height: 56px;
-        width: 108px;
-        /* border: 2px solid black;  */
-        padding: 14px 27px;
-        background: #a27b5c;
-        /* padding: 14px 27px 14px 27px; */
-        /* padding / margin  */
-        /* atas, kanan, bawah, kiri */
-        /* atas bawah, kiri kanan */
-
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 156%;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: #fff;
-        border: 2px solid #a27b5c;
-      }
-
-      a.btn-order:hover {
-        background: transparent;
-        color: #a27b5c;
-        border: 2px solid #a27b5c;
-        transition: 0.3s;
-      }
-
-      .btn-login {
-        height: 56px;
-        width: 108px;
-        /* border: 2px solid black;  */
-        padding: 14px 27px;
-        background: transparent;
-        /* padding: 14px 27px 14px 27px; */
-        /* padding / margin  */
-        /* atas, kanan, bawah, kiri */
-        /* atas bawah, kiri kanan */
-
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 156%;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: #a27b5c;
-        border: 2px solid #a27b5c;
-      }
-
-      a.btn-login:hover {
-        background: #a27b5c;
-        color: #fff;
-        border: 2px solid #a27b5c;
-        transition: 0.3s;
-      }
-    </style>
   </head>
   <body>
-    <!-- inline = dalam 1 line
-    internal
-    external -->
     <div id="app">
       <header>
         <div class="row" style="background-color: transparent">
@@ -104,14 +43,18 @@
       <main>
         <section class="banner">
           <div class="sec-title">
-            <h1>Our News</h1>
+            <h1 class="headline">Our News</h1>
             <p class="par-1">
               Get the latest updates and deeper coffee experience from IMAJI
               Coffee
             </p>
           </div>
           <div class="sec-par">
-            <img src="./assets/images/illustrations/banner.jpg" alt="banner"  />
+            <img
+              class="img-banner"
+              src="./assets/images/illustrations/banner.jpg"
+              alt="banner"
+            />
             <h5>
               Collaboration to Develop Coffee and Beverage Industry Expertise in
               Indonesia
@@ -119,10 +62,14 @@
             <p>4 Min &#8226; August 19, 2022</p>
           </div>
         </section>
-        <section>
+        <section class="list-blog">
           <div class="blog">
             <div class="img">
-              <img src="./img1.png" alt="blog1-img" srcset="" />
+              <img
+                src="./assets/images/illustrations/img1.png"
+                alt="blog1-img"
+                srcset=""
+              />
             </div>
             <div class="information">
               <h2>
@@ -134,7 +81,11 @@
           </div>
           <div class="blog">
             <div class="img">
-              <img src="./img2.png" alt="blog1-img" srcset="" />
+              <img
+                src="./assets/images/illustrations/img2.png"
+                alt="blog1-img"
+                srcset=""
+              />
             </div>
             <div class="information">
               <h2>
@@ -145,7 +96,11 @@
           </div>
           <div class="blog">
             <div class="img">
-              <img src="./img3.png" alt="blog1-img" srcset="" />
+              <img
+                src="./assets/images/illustrations/img3.png"
+                alt="blog1-img"
+                srcset=""
+              />
             </div>
             <div class="information">
               <h2>
@@ -157,7 +112,11 @@
           </div>
           <div class="blog">
             <div class="img">
-              <img src="./img4.png" alt="blog1-img" srcset="" />
+              <img
+                src="./assets/images/illustrations/img4.png"
+                alt="blog1-img"
+                srcset=""
+              />
             </div>
             <div class="information">
               <h2>Workshop Coffee Sharing Session</h2>
@@ -166,7 +125,11 @@
           </div>
           <div class="blog">
             <div class="img">
-              <img src="./img5.png" alt="blog1-img" srcset="" />
+              <img
+                src="./assets/images/illustrations/img5.png"
+                alt="blog1-img"
+                srcset=""
+              />
             </div>
             <div class="information">
               <h2>Workshop Coffee Brewing</h2>
@@ -174,7 +137,7 @@
             </div>
           </div>
 
-          <a href="#">Load More</a>
+          <a class="button-load-more" href="#">Load More</a>
         </section>
       </main>
       <footer class="footer">
