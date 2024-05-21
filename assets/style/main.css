@@ -230,6 +230,52 @@ header {
   height: 56px;
 }
 
+.location {
+  padding-bottom: 30px;
+  border-bottom: 1px solid;
+}
+
+.location > h1 {
+  height: 110px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 125%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--white);
+}
+
+.location > p {
+  height: 45px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white);
+}
+
+.social-appstore {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.appstore-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .footer {
   background-color: var(--black);
   color: var(--white);
