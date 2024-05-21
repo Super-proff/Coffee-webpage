@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMAJI Coffee</title>
     <link rel="stylesheet" href="./assets/style/main.css" />
+    <link rel="stylesheet" href="./assets/style/responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +23,34 @@
           </div>
 
           <div class="menu-wrapper">
-            <nav>
+            <input type="checkbox" name="menuToggle" id="menuToggle1" hidden/>
+
+            <label for="menuToggle">
+              <span type="button" class="icon-button">
+                <img
+                  src="./assets/images/icons/hamburger.svg"
+                  alt="menu"
+                  srcset=""
+                  width="24"
+                />
+              </span>
+            </label>
+            <nav role="navigation" class="mobile">
+              <label for="menuToggle">
+                <span style="font-size: 18px">x</span>
+              </label>
+              <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#space">Space</a></li>
+                <li><a href="#community">Community </a></li>
+                <li><a href="#news">News</a></li>
+              </ul>
+              
+              <label for="menuToggle">Close</label>
+            </nav>
+            <nav class="desktop">
               <ul class="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#story">Story</a></li>
@@ -62,11 +90,82 @@
             <p>4 Min &#8226; August 19, 2022</p>
           </div>
         </section>
+        <h5 class="sm-blog-title">Read Our blog</h5>
+        <section class="sm-list-blog">
+          <div class="card">
+            <div class="card-content">
+              <div class="image">
+                <img
+                  src="./assets/images/illustrations/img1.png"
+                  alt="blog1-img"
+                  srcset=""
+                />
+              </div>
+              <div class="box">
+                <p class="title">Visited Doesoen Sirap...</p>
+                <p class="detail">
+                  4 Min <span>&#8226;</span> <span>August 19, 2022</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="image">
+                <img
+                  src="./assets/images/illustrations/img1.png"
+                  alt="blog1-img"
+                  srcset=""
+                />
+              </div>
+              <div class="box">
+                <p class="title">Visited Doesoen Sirap...</p>
+                <p class="detail">
+                  4 Min <span>&#8226;</span> <span>August 19, 2022</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="image">
+                <img
+                  src="./assets/images/illustrations/img2.png"
+                  alt="blog1-img"
+                  srcset=""
+                />
+              </div>
+              <div class="box">
+                <p class="title">Visited Doesoen Sirap...</p>
+                <p class="detail">
+                  4 Min <span>&#8226;</span> <span>August 19, 2022</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="image">
+                <img
+                  src="./assets/images/illustrations/img3.png"
+                  alt="blog1-img"
+                  srcset=""
+                />
+              </div>
+              <div class="box">
+                <p class="title">Visited Doesoen Sirap...</p>
+                <p class="detail">
+                  4 Min <span>&#8226;</span> <span>August 19, 2022</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="list-blog">
           <div class="blog">
             <div class="img">
               <img
-                src="./assets/images/illustrations/img1.png"
+                src="./assets/images/illustrations/img4.png"
                 alt="blog1-img"
                 srcset=""
               />
